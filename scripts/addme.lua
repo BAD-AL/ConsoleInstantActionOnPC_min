@@ -49,10 +49,6 @@ addModString("ifs.console.action","Instant Action (alt)")
 -------------------------------------------------------------------------------------------
 --function RedefineExpandMissionList() 
 
-    --print("RedefineExpandMissionList: Gonna Do the files")
-    ScriptCB_DoFile("missionlist_mod")
-    --print("RedefineExpandMissionList: Did the Files")
-
     -- Expands the maplist from a bunch of modes to a flatter list.
     -- If bForMP is true, it expands the MP list. If false, it expands
     -- the SP list. 
@@ -133,9 +129,6 @@ addModString("ifs.console.action","Instant Action (alt)")
 ----- Redefine the accept handler for 'ifs_sp_campaign'----
 print("Plumb in the Console instant action screen (hijack 'spacetraining' button )")
 -- take over the 'spacetraining' button
---print("tprint(ifs_sp_campaign):")
---tprint(ifs_sp_campaign) -- print out the screen to see which element to set the text on 
---print("ifs_sp_campaign.buttons.spacetraining.label == " ..type(ifs_sp_campaign.buttons.spacetraining.label)) -- nil if error, it's type if it exists 
 IFText_fnSetString(ifs_sp_campaign.buttons.spacetraining.label, "Instant Action (ALT)")  -- set new text on spacetraining button
 
 -- handle spacetraining button press
