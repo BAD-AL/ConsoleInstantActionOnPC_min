@@ -16,3 +16,9 @@ The Instant Action Screen supports the following keys:
 |    Escape (back)            |
 
 Script written by Pandemic, modded by BAD_AL
+
+## Looks like
+![](Screenshots/InstantActionScreen.png)
+
+## Launch from here
+![](Screenshots/SinglePlayerMenu.png)
