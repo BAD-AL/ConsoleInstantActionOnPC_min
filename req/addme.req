@@ -1,0 +1,16 @@
+ucft
+{
+  REQN
+  {
+    "script"
+    "addme"
+    "ifs_missionselect_console"
+  }
+
+  REQN
+  {
+    "texture"
+    "iface_instant_action"
+    "iface_instant_action_wide"
+  }   
+}
